@@ -1,0 +1,71 @@
+# OSI Layer 1 – Physical Layer
+
+## What is the Physical Layer?
+The Physical Layer is responsible for the **actual transmission of raw bits (0s and 1s)** over a physical medium.
+
+It defines **how data is sent**, not **what the data means**.
+
+---
+
+## Why the Physical Layer is Needed?
+- To physically connect devices
+- To define signal transmission rules
+- To ensure bits are transferred correctly
+
+Without this layer, no data communication is possible.
+
+---
+
+## Key Responsibilities
+- Transmission of binary data
+- Defines voltage levels
+- Defines cable types and connectors
+- Bit synchronization
+- Data rate control
+
+---
+
+## What the Physical Layer Includes
+- Cables (Ethernet, Fiber, Coaxial)
+- Network Interface Cards (NIC)
+- Voltage levels
+- Hubs
+- Repeaters
+
+---
+
+## Data Representation
+- Data is transmitted as:
+  - Electrical signals (copper cables)
+  - Light signals (fiber optics)
+  - Radio waves (wireless)
+
+---
+
+## Devices Working at Physical Layer
+| Device | Purpose |
+|-----|-------|
+| Hub | Broadcasts signals |
+| Repeater | Regenerates signal |
+| NIC | Converts data to signals |
+| Cables | Carry signals |
+
+---
+
+## Real-World Example
+If an Ethernet cable is unplugged:
+- Physical layer fails
+- No data transmission happens
+- Higher layers are irrelevant
+
+---
+
+## Common Issues & Troubleshooting
+- Cable unplugged or damaged
+- Incorrect cable type
+- Network interface disabled
+- Hardware failure
+
+🔧 **Command example:**
+```bash
+ip link show
